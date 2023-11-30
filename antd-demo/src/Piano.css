@@ -1,0 +1,35 @@
+.piano-container {
+    display: flex;
+  }
+  
+  .octave {
+    display: flex;
+  }
+  
+  .piano-key {
+    border: 1px solid #000;
+    width: 50px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .white-key {
+    background-color: white;
+  }
+  
+  .black-key {
+    background-color: black;
+    color: white;
+    position: relative;
+    z-index: 1;
+    margin-left: -25px;
+    margin-right: -25px;
+  }
+  
+  .pressed {
+    background-color: #ffcc00; /* Change the color for pressed keys */
+  }
+  

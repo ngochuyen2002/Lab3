@@ -1,0 +1,19 @@
+body {
+  background: url('https://github.com/tamnguyen1992/drumkit/blob/master/img/background.jpg?raw=true');
+  background-size: cover;
+}
+#drum-pads{
+  display:flex;
+  flex:1;
+  min-height:100vh;
+  align-items: center;
+  justify-content: center;
+}
+#drum-pads div{
+  border:10px solid black;
+  border-radius: 10px;
+  padding:10px;
+  margin: 20px;
+  text-align:center;
+  width: 50%;
+}
